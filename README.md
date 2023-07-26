@@ -11,6 +11,9 @@ Neste desafio do curso Docker, você terá a oportunidade de aplicar os conhecim
 - A aplicação Node.js deverá adicionar um registro ao banco de dados MySQL, contendo um nome cadastrado na tabela "people".
 - O retorno da aplicação Node.js para o Nginx deve ser o seguinte conteúdo:
 
+Full Cycle Rocks!
+- Lista de nomes cadastrada no banco de dados.
+
 ### Instruções:
 - Gere um arquivo docker-compose.yml contendo a configuração necessária para que, ao executar "docker-compose up -d", todos os serviços estejam funcionando corretamente e disponíveis na porta 8080.
 
