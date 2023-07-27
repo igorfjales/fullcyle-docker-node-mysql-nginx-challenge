@@ -2,6 +2,9 @@ FROM node:15
 
 WORKDIR /usr/src/app
 
+COPY package*.json ./
+RUN npm install
+
 RUN echo "deb http://archive.debian.org/debian/ stretch main" > /etc/apt/sources.list
 RUN echo "deb-src http://archive.debian.org/debian/ stretch main" >> /etc/apt/sources.list
 RUN echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf
